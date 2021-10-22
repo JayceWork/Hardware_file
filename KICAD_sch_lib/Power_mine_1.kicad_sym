@@ -1,0 +1,1481 @@
+(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
+  (symbol "Power_mine_1:1V2-Power_Tang-1_Tang_GW1NSR_4_3603-SchDoc-rescue" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 -1.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "1V2-Power_Tang-1_Tang_GW1NSR_4_3603-SchDoc-rescue" (id 1) (at 0 1.27 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 0 1.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 1.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "1V2-Power_Tang-1_Tang_GW1NSR_4_3603-SchDoc-rescue_0_1"
+      (polyline
+        (pts
+          (xy 8.89 1.27)
+          (xy 8.89 -1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (pin power_out line (at 6.35 0 0) (length 2.54)
+        (name "1V2" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 0 0))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:5V_USB" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "5V_USB" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "5V_USB_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "5V_USB_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "5V_USB" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:AGND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AGND" (id 1) (at 0 -3.81 0)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AGND_0_1"
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 -1.27)
+          (xy 1.27 -1.27)
+          (xy 0 -2.54)
+          (xy -1.27 -1.27)
+          (xy 0 -1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "AGND_1_1"
+      (pin power_in line (at 0 0 270) (length 0) hide
+        (name "AGND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:AVCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AVCC" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AVCC_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "AVCC_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "AVCC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:AVDD15" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AVDD15" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AVDD15_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "AVDD15_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "AVDD15" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:AVDD33_PA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AVDD33_PA" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AVDD33_PA_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "AVDD33_PA_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "AVDD33_PA" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:AVDDRF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "AVDDRF" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AVDDRF_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "AVDDRF_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "AVDDRF" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:DCDC_OUT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "DCDC_OUT" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DCDC_OUT_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "DCDC_OUT_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "DCDC_OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:DOVDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "DOVDD" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DOVDD_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "DOVDD_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "DOVDD" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:DVDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "DVDD" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "DVDD_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "DVDD_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "DVDD" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:SVREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "SVREF" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SVREF_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "SVREF_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:SW_DCDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "SW_DCDC" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SW_DCDC_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "SW_DCDC_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "SW_DCDC" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VCCO0_1_2_3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCCO0_1_2_3V3" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VCCO0_1_2_3V3_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VCCO0_1_2_3V3_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VCCO0_1_2_3V3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VCCO2_3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCCO2_3V3" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VCCO2_3V3_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VCCO2_3V3_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VCCO2_3V3" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VCCO3_1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCCO3_1V8" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VCCO3_1V8_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VCCO3_1V8_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VCCO3_1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VDDCORE" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDDCORE" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VDDCORE_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VDDCORE_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VDDCORE" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VLED+" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VLED+" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VLED+_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VLED+_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VLED+" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VLED-" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VLED-" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VLED-_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VLED-_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VLED-" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VRA1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VRA1" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VRA1_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VRA1_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:VRA2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VRA2" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VRA2_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "VRA2_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:V_ILLU" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "V_ILLU" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "V_ILLU_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "V_ILLU_1_1"
+      (pin unspecified line (at 0 0 90) (length 0) hide
+        (name "V_ILLU" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vcc_phy" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vcc_phy" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vcc_phy_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vcc_phy_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vcpu" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vcpu" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vcpu_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vcpu_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vdd_phy" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vdd_phy" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vdd_phy_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vdd_phy_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vdram" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vdram" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vdram_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vdram_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vhp" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vhp" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vhp_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vhp_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vhp_bp" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vhp_bp" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vhp_bp_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vhp_bp_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vio" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vio" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vio_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vio_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vmcsi" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vmcsi" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vmcsi_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vmcsi_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vpe" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vpe" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vpe_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vpe_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vpll" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vpll" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vpll_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vpll_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vrtc" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vrtc" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vrtc_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vrtc_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vrtc_io" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vrtc_io" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vrtc_io_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vrtc_io_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vsys" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vsys" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vsys_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vsys_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "Power_mine_1:Vusb" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Vusb" (id 1) (at 0 3.556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "Vusb_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "Vusb_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+1V8" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
