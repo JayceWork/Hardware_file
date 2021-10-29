@@ -1,5 +1,5 @@
 (footprint "D_SOD-323-m" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 61710052)
+  (tedit 617288BA)
   (descr "SOD-323")
   (tags "SOD-323")
   (attr smd)
@@ -11,7 +11,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a1f62f44-7788-4cf3-b3ad-0a9187582376)
   )
-  (fp_text user "${REFERENCE}" (at 0 -1.85) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0.4 0.1) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cb05c2bd-72dd-432a-b673-012ae97e31d8)
   )
@@ -29,6 +29,7 @@
   (fp_line (start 0.9 0.7) (end -0.9 0.7) (layer "F.Fab") (width 0.1) (tstamp d9515fd3-a59e-4030-8848-b94c709d2ce8))
   (fp_line (start 0.9 -0.7) (end 0.9 0.7) (layer "F.Fab") (width 0.1) (tstamp dcf94f4e-7c32-46a4-90c3-419fc6dfbad1))
   (fp_line (start -0.9 0.7) (end -0.9 -0.7) (layer "F.Fab") (width 0.1) (tstamp e50f96cb-a35d-46b2-a7d4-b2a6276938ac))
+  (fp_line (start -0.55 -0.55) (end -0.55 0.55) (layer "F.Fab") (width 0.1) (tstamp ff28bf95-c03c-4cf5-9f4f-375d6ecdc92a))
   (pad "1" smd rect (at -1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3bb2d7e0-b03e-4d21-ad00-4a3bcc1ded59))
   (pad "2" smd rect (at 1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 357fa341-dbeb-4b37-a030-7645b35869f3))
   (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
