@@ -1,0 +1,21 @@
+(footprint "R0402_M" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 2.4439 -0.9961 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp a4b2ea54-8955-488f-827f-865f41cd460f)
+  )
+  (fp_text value "0R" (at -1.1375 -0.9961 -90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 083b2527-e405-49bd-a309-2cdb85cd9a7a)
+  )
+  (pad "1" smd rect (at -0.4826 0) (size 0.6 0.508) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0254) (tstamp f8c48444-09eb-4ba3-87d0-53b27b8d8b7e))
+  (pad "2" smd rect (at 0.4826 0) (size 0.6 0.508) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0254) (tstamp 414c725c-3e31-4a60-9510-6dc322701b9b))
+  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/User Library-R0402-2.step"
+    (offset (xyz -0.007538 0.000061 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -0 -0 -90))
+  )
+)

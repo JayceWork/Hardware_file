@@ -1,5 +1,6 @@
-(footprint "USB_C_Receptacle_16P" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 6178E5BF)
+(footprint "USB_C_Receptacle_16P" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62047511)
   (descr "http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf")
   (tags "USB C Type-C Receptacle USB2.0")
   (attr smd)
@@ -114,7 +115,7 @@
   (pad "S1" thru_hole oval (at 4.32 -1.93 90) (size 2 0.9) (drill oval 1.7 0.6) (layers *.Cu *.Mask) (tstamp 33251c9d-7b81-4353-970e-508444630ba0))
   (pad "S1" thru_hole oval (at -4.32 2.24 90) (size 1.7 0.9) (drill oval 1.4 0.6) (layers *.Cu *.Mask) (tstamp e59373a7-0d56-4736-838d-9df3e73711c5))
   (pad "S1" thru_hole oval (at 4.32 2.24 90) (size 1.7 0.9) (drill oval 1.4 0.6) (layers *.Cu *.Mask) (tstamp fded5b9f-91e1-402c-898f-af41583081e5))
-  (model "E:/3D/Connector/USB/USB-TYPE-C20.step"
+  (model "${KICAD_LIB}/3D_step/Connector/USB/USB-TYPE-C20.step"
     (offset (xyz 0 -5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

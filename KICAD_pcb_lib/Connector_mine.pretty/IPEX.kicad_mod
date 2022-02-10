@@ -1,0 +1,23 @@
+(footprint "IPEX" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6204785F)
+  (fp_text reference "REF**" (at -9.286182 3.356229 -180 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp f9f488f4-a011-4dbf-9a1e-1a362f4e2af3)
+  )
+  (fp_text value "IPEX一代座子" (at -9.286182 -3.425571 -180 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 9fb679b0-f8cb-4aca-976d-f1ecbc2133c1)
+  )
+  (pad "1" smd rect (at 0 -0.17526 180) (size 0.6 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (tstamp f8c486bc-4643-4531-9f53-9d1bfc8b9232))
+  (pad "2" smd rect (at 1.322199 -1.5 180) (size 0.6 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (tstamp d8b449aa-e802-4adf-8a5c-aed3dbc83c38))
+  (pad "3" smd rect (at -1.4238 -1.5 180) (size 0.6 2.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (tstamp a31c9ac4-19d3-435b-a32a-8eee487f99fb))
+  (model "${KICAD_LIB}/3D_step/Connector/User Library-IPEX.step"
+    (offset (xyz -0.000082 1.499919 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -0 -0 -90))
+  )
+)

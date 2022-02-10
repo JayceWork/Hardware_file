@@ -1,5 +1,6 @@
-(footprint "tf_card" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 6178E67A)
+(footprint "tf_card" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62047A09)
   (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2c4b4380-e1fe-4771-8faf-adbdf3a24c74)
@@ -88,6 +89,8 @@
   (fp_line (start 7.366 0.762) (end 7.366 3.3782) (layer "F.SilkS") (width 0.12) (tstamp e064852a-74d9-4483-bbd7-6c0a3387ad07))
   (fp_line (start -7.62 2.5654) (end -7.62 0.9144) (layer "F.SilkS") (width 0.12) (tstamp fad9e4e5-6472-4801-816e-3154442d80ee))
   (fp_line (start -7.62 -9.144) (end -7.62 -1.7272) (layer "F.SilkS") (width 0.12) (tstamp fea02d14-5818-42e3-8d9c-d1253f3d40d1))
+  (pad "" thru_hole circle (at -4.95 0) (size 1 1) (drill 1) (layers *.Cu *.Mask) (tstamp 47154f7d-53e0-4884-8d89-4502ec039952))
+  (pad "" thru_hole circle (at 3.05 0) (size 1 1) (drill 1) (layers *.Cu *.Mask) (tstamp d62be139-fb00-4b1c-ae72-54bd342eee30))
   (pad "1" smd rect (at 2.2 -10.7) (size 0.7 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1cc71330-65a3-4b53-9803-5131f276de9a))
   (pad "2" smd rect (at 1.1 -10.7) (size 0.7 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 640c3e9d-d813-45b4-81af-5f53f06f759e))
   (pad "3" smd rect (at 0 -10.7) (size 0.7 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 469362a0-6edc-46bc-b40a-714e80eab7bd))
@@ -101,8 +104,6 @@
   (pad "11" smd rect (at -8 -9.9) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 30f8a65d-d45e-432b-8495-11685bca34a6))
   (pad "12" smd rect (at -7.75 -0.4) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6b200f2f-4654-48bd-81a8-581a17e780db))
   (pad "13" smd rect (at 7.75 -0.4) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6acaf53f-8ebe-4afb-8c46-ee62e0a8c37d))
-  (pad "14" thru_hole circle (at -4.95 0) (size 1 1) (drill 1) (layers *.Cu *.Mask) (tstamp 47154f7d-53e0-4884-8d89-4502ec039952))
-  (pad "15" thru_hole circle (at 3.05 0) (size 1 1) (drill 1) (layers *.Cu *.Mask) (tstamp d62be139-fb00-4b1c-ae72-54bd342eee30))
   (model "E:/3D/Connector/TF/micro-SD.step"
     (offset (xyz -1 10.5 0))
     (scale (xyz 1 1 1))

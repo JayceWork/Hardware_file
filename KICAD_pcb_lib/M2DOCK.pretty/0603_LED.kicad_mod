@@ -1,0 +1,23 @@
+(footprint "0603_LED" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at -2.216709 2.491501 -180 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp a3b24ead-f6af-43c6-88c6-e117c893951d)
+  )
+  (fp_text value "红色LED_0603" (at -2.216709 -2.613899 -180 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 4c1b4852-adfa-4bf1-a991-4e2de6a92158)
+  )
+  (fp_line (start 0.1524 0) (end -0.1016 0) (layer "F.SilkS") (width 0.1524) (tstamp 14797dc7-2626-4754-a758-51380d464ee3))
+  (fp_line (start -0.1016 -0.2794) (end -0.1016 0.3048) (layer "F.SilkS") (width 0.1524) (tstamp a412d194-d1cf-4ee8-9292-89992ab5cbf5))
+  (pad "A" smd rect (at -0.650004 0 90) (size 0.8128 0.7112) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0254) (tstamp 5207b551-fedd-4955-9c18-eea2162cea82))
+  (pad "K" smd rect (at 0.650001 0 90) (size 0.8128 0.7112) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0254) (tstamp 0f4e6270-4cb8-4f10-8cc6-d329f9fd229f))
+  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0603-led.step"
+    (offset (xyz 0.025481 0.018979 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 -0 0))
+  )
+)

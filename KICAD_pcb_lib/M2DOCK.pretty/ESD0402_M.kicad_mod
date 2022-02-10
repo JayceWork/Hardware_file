@@ -1,0 +1,21 @@
+(footprint "ESD0402_M" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 22.7497 8.187662 90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 060c8bbf-3492-412e-a964-b0f8033dfcb5)
+  )
+  (fp_text value "LXES15AAA1-153" (at 18.1523 8.187662 90 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 883d7096-6dbb-43a6-bcc2-4fc9bc3327f2)
+  )
+  (pad "A" smd rect (at -0.4826 0 180) (size 0.53 0.508) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0254) (tstamp 6c5bb450-0eb6-447c-ac87-49487a6566e7))
+  (pad "K" smd rect (at 0.4826 0 180) (size 0.53 0.508) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0254) (tstamp 431d365a-99c5-4270-914c-b6248d711621))
+  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/User Library-0402_Cap.step"
+    (offset (xyz -0.004064 0.001778 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -0 -0 0))
+  )
+)
