@@ -1,10 +1,11 @@
-(footprint "FPC-0.3MM-H1.0MM-21P" (version 20211014) (generator pcbnew) (layer "F.Cu")
-  (tedit 619B3B23)
+(footprint "FPC-21P-0.3MM-H1.0MM" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6204E976)
   (fp_text reference "REF**" (at 1.3208 -2.286 unlocked) (layer "F.SilkS") hide
     (effects (font (size 0.999744 1.05156) (thickness 0.1524)))
     (tstamp aa5ae3bd-d537-4fe2-a089-cfc756bda392)
   )
-  (fp_text value "FPC-0.3MM-H1.0MM-21P" (at 10.0838 -4.064 unlocked) (layer "F.SilkS") hide
+  (fp_text value "FPC-21P-0.3MM-H1.0MM" (at 10.0838 -4.064 unlocked) (layer "F.SilkS") hide
     (effects (font (size 0.999744 1.05156) (thickness 0.1524)))
     (tstamp a4cb3279-8f1f-4bc1-9f03-463fcafe0f56)
   )
