@@ -678,7 +678,7 @@
     )
   )
   (symbol "VCC_DRAM" (power) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR?" (id 0) (at 0.254 -0.254 0)
+    (property "Reference" "#PWR?" (id 0) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC_DRAM" (id 1) (at 0 1.27 0)
@@ -705,21 +705,21 @@
     (symbol "VCC_DRAM_0_1"
       (polyline
         (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
+          (xy 0 0)
+          (xy -1.27 -1.27)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
+          (xy 0 0)
+          (xy 1.27 -1.27)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (pin power_out line (at 0 0 90) (length 2.54)
+      (pin power_out line (at 0 -2.54 90) (length 2.54)
         (name "1V5" (effects (font (size 0 0))))
         (number "" (effects (font (size 0 0))))
       )
@@ -1002,7 +1002,7 @@
     )
   )
   (symbol "VREF_DRAM" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR" (id 0) (at -0.508 -1.524 0)
+    (property "Reference" "#PWR" (id 0) (at 0 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VREF_DRAM" (id 1) (at 0 1.27 0)
@@ -1017,21 +1017,13 @@
     (symbol "VREF_DRAM_0_1"
       (polyline
         (pts
-          (xy -0.762 -1.27)
+          (xy -2.54 0)
           (xy 0 0)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy 0.762 -1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin power_out line (at 0 -2.54 90) (length 2.54)
+      (pin power_out line (at -1.27 -2.54 90) (length 2.54)
         (name "0V75" (effects (font (size 0 0))))
         (number "1" (effects (font (size 0 0))))
       )
@@ -1065,16 +1057,8 @@
     (symbol "VTT_DRAM_0_1"
       (polyline
         (pts
-          (xy -0.762 1.27)
-          (xy 0 2.54)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0.762 1.27)
+          (xy -1.27 2.54)
+          (xy 1.27 2.54)
         )
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
