@@ -1,6 +1,6 @@
 (footprint "1.25mm_4P_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6205C823)
+  (tedit 620DE06B)
   (descr "Molex CLIK-Mate series connector, 502386-0470 (http://www.molex.com/pdm_docs/sd/5023860270_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex CLIK-Mate top entry")
   (attr smd)
@@ -34,8 +34,8 @@
   (pad "2" smd roundrect (at -0.625 -1.85) (size 0.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0f7f87a5-1276-444f-9009-44de1e04d4a2))
   (pad "3" smd roundrect (at 0.625 -1.85) (size 0.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f4ab222e-e5c2-40d0-a32f-1f54eaddcb6f))
   (pad "4" smd roundrect (at 1.875 -1.85) (size 0.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a3f61fee-8dea-4403-a42f-1bcc358bf1f8))
-  (pad "MP" smd roundrect (at 3.725 1.35) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0ed6d7f4-6fdb-44a4-99c9-ec2b777d2166))
-  (pad "MP" smd roundrect (at -3.725 1.35) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp be72f722-1959-4364-88ea-a55484f6be5d))
+  (pad "SH" smd roundrect (at 3.725 1.35) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0ed6d7f4-6fdb-44a4-99c9-ec2b777d2166))
+  (pad "SH" smd roundrect (at -3.725 1.35) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp be72f722-1959-4364-88ea-a55484f6be5d))
   (model "${KICAD_LIB}/3D_step/Connector/1P25mm/1P25mm-4P-Horizontal.stp"
     (offset (xyz 0 -1 2))
     (scale (xyz 1 1 1))
