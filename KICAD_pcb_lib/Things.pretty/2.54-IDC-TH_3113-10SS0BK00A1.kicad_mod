@@ -1,6 +1,6 @@
 (footprint "2.54-IDC-TH_3113-10SS0BK00A1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 0)
+  (tedit 621C8618)
   (fp_text reference "U1" (at -0.127 -4.2545 unlocked) (layer "F.SilkS")
     (effects (font (size 1.143 1.143) (thickness 0.1524)) (justify left bottom))
     (tstamp 70e4263f-d95a-4431-b3f3-cfc800c82056)
@@ -31,4 +31,9 @@
   (pad "8" thru_hole circle (at 2.54 -1.27) (size 1.799996 1.799996) (drill 0.999998) (layers *.Cu *.Mask) (tstamp bb4b1afc-c46e-451d-8dad-36b7dec82f26))
   (pad "9" thru_hole circle (at 5.08 1.27) (size 1.799996 1.799996) (drill 0.999998) (layers *.Cu *.Mask) (tstamp 86dc7a78-7d51-4111-9eea-8a8f7977eb16))
   (pad "10" thru_hole circle (at 5.08 -1.27) (size 1.799996 1.799996) (drill 0.999998) (layers *.Cu *.Mask) (tstamp 0bcafe80-ffba-4f1e-ae51-95a595b006db))
+  (model "${MODULE_KU}/连接器/2x5-2.0mm-header-jianniu/jianniu-2x5P 2.0mm.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

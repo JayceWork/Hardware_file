@@ -1,10 +1,10 @@
 (footprint "FPC-40P-0.5MM-H2.0MM" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6204EA1E)
+  (tedit 621C8CFC)
   (tags "FPC-40P-0.5MM-H2.0MM")
   (attr smd)
-  (fp_text reference "REF**" (at -7.9 1.9) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text reference "REF**" (at -7.9 1.9) (layer "F.SilkS")
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
     (tstamp 33642979-b591-4775-92cd-3c579cf4f22c)
   )
   (fp_text value "FPC-40P-0.5MM-H2.0MM" (at -8.05 5.6) (layer "F.Fab")

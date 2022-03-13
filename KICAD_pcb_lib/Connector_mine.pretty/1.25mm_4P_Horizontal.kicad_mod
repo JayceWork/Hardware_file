@@ -1,10 +1,10 @@
 (footprint "1.25mm_4P_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620DE06B)
+  (tedit 621C8E3E)
   (descr "Molex CLIK-Mate series connector, 502386-0470 (http://www.molex.com/pdm_docs/sd/5023860270_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex CLIK-Mate top entry")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -3.9) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 1.17) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a6d8838d-94b8-48ed-9038-65684cce9b8a)
   )

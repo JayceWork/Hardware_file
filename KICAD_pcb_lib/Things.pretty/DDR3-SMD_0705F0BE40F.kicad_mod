@@ -1,11 +1,11 @@
 (footprint "DDR3-SMD_0705F0BE40F" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 0)
-  (fp_text reference "U1" (at -0.06731 -18.359501 unlocked) (layer "F.SilkS")
+  (tedit 622C7DC2)
+  (fp_text reference "U1" (at -0.06731 -7.62 unlocked) (layer "F.SilkS")
     (effects (font (size 1.143 1.143) (thickness 0.1524)) (justify left bottom))
     (tstamp ca6e2466-a90a-4dab-be16-b070610e5087)
   )
-  (fp_text value "DDR3-SMD_0705F0BE40F" (at -0.06731 -20.137501 unlocked) (layer "F.SilkS") hide
+  (fp_text value "DDR3-SMD_0705F0BE40F" (at -0.06731 -5.08 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1.143 1.143) (thickness 0.1524)) (justify left bottom))
     (tstamp d95c6650-fcd9-4184-97fe-fde43ea5c0cd)
   )
@@ -229,4 +229,9 @@
   (pad "202" smd rect (at 31.049468 -4.099941 270) (size 1.999996 0.350012) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 86e98417-f5e4-48ba-8147-ef66cc03dde6))
   (pad "203" smd rect (at 31.350204 4.099941 270) (size 1.999996 0.350012) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e70d061b-28f0-4421-ad15-0598604086e8))
   (pad "204" smd rect (at 31.650178 -4.099941 270) (size 1.999996 0.350012) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 992a2b00-5e28-4edd-88b5-994891512d8d))
+  (model "${KICAD_LIB}/3D_step/Connector/DDR/DDR3-204P.step"
+    (offset (xyz 0.45 29.5 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

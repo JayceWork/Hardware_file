@@ -1,9 +1,9 @@
 (footprint "MSOP-8" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6204AEAD)
+  (tedit 621C8DFF)
   (tags "MSOP-8")
-  (fp_text reference "REF**" (at 4.513441 -1.258527 -90 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+  (fp_text reference "REF**" (at 1.48 -0.59 90 unlocked) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.1)) (justify left bottom))
     (tstamp ab4e5ce2-6d4e-48b1-a1e2-5cc8328b6d01)
   )
   (fp_text value "NS4150" (at -3.868559 -1.258527 -90 unlocked) (layer "F.SilkS") hide

@@ -1,6 +1,6 @@
 (footprint "Button_6x6_black_smd" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6205D52F)
+  (tedit 622C7C3B)
   (attr smd)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -21,9 +21,9 @@
     (solder_mask_margin 0.0254) (tstamp 4eaa0c19-20d0-4a63-809b-b4ca2a01a3d7))
   (pad "2" smd rect (at 2.925 5.174998) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.0254) (tstamp 8d12963f-ba87-4425-9f8f-437662278e72))
-  (model "${KICAD_LIB}/3D_step/Things/model_49.step"
-    (offset (xyz 0 -5.2 0))
+  (model "${KICAD_LIB}/3D_step/Things/Button_6 x 6 x 5.STEP"
+    (offset (xyz 0.5 24.8 -1.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz -180 180 180))
   )
 )

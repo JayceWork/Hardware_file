@@ -1,10 +1,10 @@
 (footprint "Crystal_SMD_2012-2Pin(FC-135)" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6205DF8B)
+  (tedit 621C8EB9)
   (tags "Crystal_SMD_2012-2Pin(FC-135)")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text reference "REF**" (at -0.09 -0.01) (layer "F.SilkS")
+    (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp c884feb5-afbc-4baf-9f12-868c0ed27bc9)
   )
   (fp_text value "Crystal_SMD_2012-2Pin(FC-135)" (at 0 2) (layer "F.Fab")

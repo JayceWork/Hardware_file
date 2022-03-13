@@ -1,6 +1,6 @@
 (footprint "QFN-32_L5.0-W5.0-P0.50-BL-EP3.4" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 0)
+  (tedit 621C8E9F)
   (fp_text reference "U1" (at -0.127 -2.6035 unlocked) (layer "F.SilkS")
     (effects (font (size 1.143 1.143) (thickness 0.1524)) (justify left bottom))
     (tstamp 89e83c2e-e90a-4a50-b278-880bac0cfb49)
@@ -53,4 +53,9 @@
   (pad "31" smd rect (at -2.499867 1.249934) (size 0.799998 0.28001) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e472dac4-5b65-4920-b8b2-6065d140a69d))
   (pad "32" smd rect (at -2.499867 1.75006) (size 0.799998 0.28001) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 676efd2f-1c48-4786-9e4b-2444f1e8f6ff))
   (pad "33" smd rect (at 0 0 180) (size 3.399993 3.399993) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cfa5c16e-7859-460d-a0b8-cea7d7ea629c))
+  (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )

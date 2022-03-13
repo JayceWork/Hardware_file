@@ -1,5 +1,6 @@
-(footprint "LED_0603" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 6171007C)
+(footprint "LED_0603" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 621C8C75)
   (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags "diode")
   (attr smd)
@@ -30,7 +31,7 @@
   (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp eb57f218-6228-4b8e-a227-a09d43ca2765))
   (pad "1" smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d85fd7cd-a377-4b8f-b128-2d1d8be0df50))
   (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7c3238ee-2ddb-4c00-8f03-46e484ae45cc))
-  (model "E:/3D/Things/LED_0603.step"
+  (model "${KICAD_HARDWARE}/3D_step/Things/LED_0603.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

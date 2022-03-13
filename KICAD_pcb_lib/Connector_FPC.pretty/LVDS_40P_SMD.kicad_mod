@@ -1,6 +1,6 @@
 (footprint "LVDS_40P_SMD" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 0)
+  (tedit 621C8DAD)
   (fp_text reference "U1" (at -0.204089 -1.930527 unlocked) (layer "F.SilkS")
     (effects (font (size 1.143 1.143) (thickness 0.1524)) (justify left bottom))
     (tstamp 29bb7297-26fb-4776-9266-2355d022bab0)
@@ -60,4 +60,9 @@
   (pad "42" smd rect (at 12.849885 1.485925) (size 1.399997 1.899996) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3c5e5ea9-793d-46e3-86bc-5884c4490dc7))
   (pad "43" smd rect (at -10.650093 -1.486027) (size 0.550012 1.099998) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dae72997-44fc-4275-b36f-cd70bf46cfba))
   (pad "44" smd rect (at 10.649915 -1.486027) (size 0.550012 1.099998) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c8b6b273-3d20-4a46-8069-f6d608563604))
+  (model "${MODULE_KU}/连接器/LVDS.stp"
+    (offset (xyz 0 -1.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

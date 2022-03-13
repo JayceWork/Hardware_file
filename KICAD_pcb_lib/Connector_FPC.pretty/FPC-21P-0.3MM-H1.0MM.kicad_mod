@@ -1,6 +1,6 @@
 (footprint "FPC-21P-0.3MM-H1.0MM" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6204E976)
+  (tedit 621C8A94)
   (fp_text reference "REF**" (at 1.3208 -2.286 unlocked) (layer "F.SilkS") hide
     (effects (font (size 0.999744 1.05156) (thickness 0.1524)))
     (tstamp aa5ae3bd-d537-4fe2-a089-cfc756bda392)
@@ -8,6 +8,14 @@
   (fp_text value "FPC-21P-0.3MM-H1.0MM" (at 10.0838 -4.064 unlocked) (layer "F.SilkS") hide
     (effects (font (size 0.999744 1.05156) (thickness 0.1524)))
     (tstamp a4cb3279-8f1f-4bc1-9f03-463fcafe0f56)
+  )
+  (fp_text user "REF**" (at 0.07 0.01 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 576d55f2-f68f-4b0f-b8b3-962309a9a558)
+  )
+  (fp_text user "1" (at -3.19 2.64 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e009a126-8403-455a-84ed-1e65475006ba)
   )
   (fp_line (start 2.9972 -1.0414) (end 3.9878 -1.0414) (layer "F.SilkS") (width 0.254) (tstamp 2b3c07a2-076f-4942-bfd4-38e567c70a6c))
   (fp_line (start -3.9878 -1.0414) (end -2.9972 -1.0414) (layer "F.SilkS") (width 0.254) (tstamp 4c8acfc7-536c-4a59-acf2-41f7f5368175))

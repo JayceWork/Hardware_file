@@ -1,12 +1,12 @@
 (footprint "SOT-23-3 - small" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6204AD05)
-  (fp_text reference "REF**" (at 4.836978 -2.787889 -90 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+  (tedit 6228096C)
+  (fp_text reference "REF**" (at 0.51 -1.08 -90 unlocked) (layer "F.SilkS")
+    (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
     (tstamp edf71b89-55f3-4f05-bea2-656a763b2b0f)
   )
-  (fp_text value "SI2302" (at -1.411422 -2.787889 -90 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+  (fp_text value "${REFERENCE}" (at 0.6 -1.32 270 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 0.6 0.6) (thickness 0.1)) (justify left bottom))
     (tstamp e5477f14-82ef-4b6a-a499-4b7c067a8974)
   )
   (fp_line (start -0.254 -1.505585) (end 0.308384 -1.505585) (layer "F.SilkS") (width 0.1) (tstamp 19e0c3e6-5d97-4210-9017-cc326de5bb6d))
@@ -21,9 +21,9 @@
     (solder_mask_margin 0.0508) (tstamp dc10fca2-b685-4853-a0a6-eecef426c073))
   (pad "3" smd rect (at 1.15758 0 90) (size 0.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.0508) (tstamp d6d8dcc8-67cc-42c5-89b4-d76037b5248a))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/sot23-3.step"
-    (offset (xyz -0.087376 -0.000081 0))
+  (model "${KICAD_LIB}/3D_step/IC/User Library-3-lead sot23-3.step"
+    (offset (xyz -0.087376 -0.000081 0.38))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 -0 -90))
+    (rotate (xyz -90 0 90))
   )
 )

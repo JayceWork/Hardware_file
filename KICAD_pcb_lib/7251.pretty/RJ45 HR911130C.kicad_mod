@@ -1,6 +1,6 @@
 (footprint "RJ45 HR911130C" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62184300)
+  (tedit 621C8AF6)
   (attr through_hole)
   (fp_text reference "REF**" (at -4.572 -2.3 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -53,7 +53,7 @@
   (pad "SH" thru_hole circle (at -6.602 8.75) (size 2.3 2.3) (drill 1.57) (layers *.Cu *.Mask) (tstamp 5c82a365-225e-46ce-9e5d-38e7e8f70e5c))
   (pad "SH" thru_hole circle (at 9.658 8.75) (size 2.3 2.3) (drill 1.57) (layers *.Cu *.Mask) (tstamp ee9342a6-4b2f-486a-b1aa-4cdd7594d389))
   (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.wrl"
-    (offset (xyz -2 -13.5 0))
+    (offset (xyz -2 -7.85 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
